@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Dev Icon Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <title>Portfólio</title>
+  </head>
+
+  <body>
+    <main id="container">
+      <aside id="bio-container">
+        <h2>João Paulo Araújo</h2>
+        <img
+          id="bio-profile"
+          src="./src/assets/img/profile.jpg"
+          alt="João Paulo Araújo"
+        />
+        <p>
+          Olá, meu nome é João Paulo Araújo e sou
+          <span class="highlight">Desenvolvedor Front-End</span>.
+        </p>
+        <p id="welcome-text">Seja bem-vindo!</p>
+        <ul id="social-container">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/joaofonsecaraujo/"
+              target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/araujota_/" target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/JoaoAraujo99_" target="_blank"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <div id="email-container">
+          <ion-icon name="mail-outline"></ion-icon
+          ><a href="mailto:jpf.araujo99@hotmail.com"
+            >jpf.araujo99@hotmail.com</a
+          >
+        </div>
+      </aside>
+      <section id="about-container">
+        <h1 id="name">João Paulo Araújo</h1>
+        <p id="title"><span class="highlight">Desenvolvedor Front-End</span></p>
+        <p class="description">
+          Sou um desenvolvedor no começo de carreira querendo atuar na área de
+          Front-End, gosto de participar do projeto desde a
+          <span class="highlight"
+            >definição do projeto e levantamento de requisito</span
+          >
+          até o <span class="highlight">deplay da aplicação</span>.
+        </p>
+        <p class="description">
+          Atuo atualmente em <span class="highlight">Front</span> mas desejo
+          começar os estudos em <span class="highlight">Back-End</span>, e amo
+          tecnologia, estudo todos os dias para me tornar cada vez melhor e
+          escrever um código de qualidade.
+        </p>
+        <a
+          href="https://github.com/jotaFonseca"
+          target="_blank"
+          id="btn-projects"
+          ><ion-icon name="share-social-outline"></ion-icon
+          ><span>Ver Projetos</span></a
+        >
+        <h2 id="skills-section-title">Meus Conhecimentos</h2>
+        <p class="description">Essas são as tecnologias que domino:</p>
+        <div id="skills-container">
+          <div class="skills-box">
+            <p class="skills-title">Front-End</p>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
+          <!-- <div class="skills-box">
+                    <p class="skills-title">Back-End</p>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div> -->
+        </div>
+      </section>
+      <section class="project-container">
+        <h2>Meus Projetos</h2>
+        <p>Esses são alguns dos projetos que já desenvolvi:</p>
+        <div class="projects">
+          <div class="project-card">
+            <img src="./src/assets/img/animais.jpg" alt="Projeto 1" />
+            <div class="project-content">
+              <h3>Animais Fantásticos</h3>
+              <a class="project-btn" href="https://jotafonseca.github.io/animais-fantasticos/" target="_blank">
+                <span>Acessar Projeto</span>
+                <ion-icon name="share-social-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./src/assets/img/bike.jpg" alt="Projeto 2" />
+            <div class="project-content">
+              <h3>Bikcraft</h3>
+              <a class="project-btn" href="https://jotafonseca.github.io/bikcraft/" target="_blank" >
+                <span>Acessar Projeto</span>
+                <ion-icon name="share-social-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./src/assets/img/food.jpg" alt="Projeto 3" />
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <a class="project-btn" href="https://landing-page-hfdh7qxnf-jotafonsecas-projects.vercel.app/" target="_blank">
+                <span>Acessar Projeto</span>
+                <ion-icon name="share-social-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
